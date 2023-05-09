@@ -31,5 +31,36 @@ db.routes.find()*/
 /*use("sample_training")
 db.posts.find ()*/
 
-use("sample_training")
-db.trips.find ({usertype: "Subscriber"})
+/*use("sample_training")
+db.trips.find ({usertype: "Subscriber"})*/
+
+/*use("Peluqueria")
+db.Comida_Gatos. find ()*/
+
+/*use("sample_training")
+db.zips.find({state: "NY"}).count()*/
+/*----------------------------------------------------------------*/
+
+//Insertar registro, supongo.
+
+/*----------------------------------------------------------------*/
+
+/*use("Peluqueria")
+db.CortesPelo.insertOne({
+    "name":"Schnauzer",
+    "price":"$ 15.000",
+    "preference":"Mas recomendado para perros medianos"
+})
+*/
+/*----------------------------------------------------------------*/
+
+//Eliminar registro, supongo.
+
+/*----------------------------------------------------------------*/
+use("Peluqueria")
+db.CortesPelo.deleteOne({
+    "name":"Schnauzer",
+    "price":"$ 15.000",
+    "preference":"Mas recomendado para perros medianos"
+})
+
