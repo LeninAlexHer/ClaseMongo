@@ -1,2 +1,35 @@
+/*use("sample_training")
+db.zips.find ({state:"NY"})*/
+
+/*use("Peluqueria")
+db.Premios_Gatos.find()*/
+
+/*use("sample_training")
+db.zips.find ({first_name: "Mike"})*/
+
+/*use("sample_training")
+db.zips.find ({city: "BLOUNTSVILLE"})*/
+
+/*use("sample_training")
+db.inspections.find ({sector: "Tow Truck Company - 124"})*/
+
+/*use("sample_training")
+db.zips.find ({state: "AL"})*/
+
+/*use("Peluqueria")
+db.Comida_Perros.find ({weight: "15 Kg"})*/
+
+/*use("Peluqueria")
+db.Premios_Gatos.find ({name: "Felix Comida Húmeda Gatos"})*/
+
+/*use("Peluqueria")
+db.CortesPelo.find ({name: "Holandés"})*/
+
+/*use("sample_training")
+db.routes.find()*/
+
+/*use("sample_training")
+db.posts.find ()*/
+
 use("sample_training")
-db.zips.find ({state:"NY"})
+db.trips.find ({usertype: "Subscriber"})
